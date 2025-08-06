@@ -1,7 +1,7 @@
-output "sns_topic_arn" {
-  description = "The ARN of the SNS topic"
-  value       = aws_sns_topic.cloudtrail_alarm_topic.arn
-}
+#output "sns_topic_arn" {
+ # description = "The ARN of the SNS topic"
+  #value       = aws_sns_topic.cloudtrail_alarm_topic.arn
+#}
 
 output "cloudtrail_name" {
   description = "The name of the CloudTrail"
